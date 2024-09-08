@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 700px;
+}
+
+.top {
+  height: 500px;
+  width: 100%;
+}
+
+.overlay {
+  position: relative;
+  height: 100%;
+}
+.image-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.text {
+  position: relative;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  top: 34%;
+}
+.text h1 {
+  margin-left: 3%;
+}
+
+.read-text {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  align-items: center;
+}
+
+.read-text p {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.image02 img {
+  position: relative;
+  height: 125px;
+  width: 150%;
+}
+
+.icons {
+  margin-top: 20px;
+  margin-right: 3%;
+}
+
+.icons i {
+  font-size: 24px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.icons i:hover {
+  color: #f39c12; /* Change color on hover */
+}
+
+.bottom {
+  /* background-color: aqua; */
+  height: 40%;
+  display: flex;
+}
+.b1 {
+  position: relative;
+  width: 30%;
+  height: auto;
+}
+
+.b1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.b1-details {
+  position: absolute;
+  top: 14%;
+  left: 40%;
+  color: white; /* Make text stand out on the image */
+  text-align: center;
+  padding: 10px;
+}
+
+.b1-details h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.b1-details p {
+  margin-top: 10px;
+  font-size: 1em;
+}
+
+.b2 {
+  width: 30%;
+}
+.b2 img {
+  height: 100%;
+  width: 100%;
+}
+.up {
+  height: 50%;
+  position: relative;
+}
+.up-info {
+  position: absolute;
+  color: yellow;
+  text-align: center;
+  top: 20%;
+  left: 5%;
+}
+.up-info p {
+  margin-top: 3%;
+}
+.down {
+  height: 50%;
+  position: relative;
+}
+.down h1 {
+  position: absolute;
+  color: white;
+  top: 10%;
+  left: 7%;
+}
+
+.b3 {
+  width: 40%;
+  position: relative;
+}
+.b3 img {
+  height: 100%;
+  width: 100%;
+}
+.b3-details {
+  position: absolute;
+  top: 5%;
+  left: 4%;
+  font: bold;
+  font-weight: 600;
+  font-size: 23px;
+  padding: 8px;
+  margin-top: 5px;
+}
+.b3-details p {
+  margin-top: 5px;
+}
+
+@media (max-width: 500px) {
+  .text {
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 10%;
+    left: 4%;
+  }
+
+  .text h1 {
+    font-size: 25px;
+  }
+
+  .text img {
+    height: 150px;
+    width: 200px;
+    margin-top: 20px;
+  }
+  .icons {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .read-text {
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 40px;
+  }
+  .read-text p {
+    flex-direction: column;
+    margin-top: 5%;
+  }
+  .bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .b1 {
+    width: 100%;
+  }
+  .b1-details p {
+    font-size: 10px;
+  }
+  .b2 {
+    width: 100%;
+    height: 100%;
+  }
+  .up {
+    height: 55%;
+  }
+  .down {
+    height: 45%;
+  }
+  .b3 {
+    width: 100%;
+  }
+
+  .b3-details {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 700px) {
+  .text {
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 10%;
+    left: 4%;
+  }
+
+  .text h1 {
+    font-size: 25px;
+  }
+
+  .text img {
+    height: 150px;
+    width: 200px;
+    margin-top: 20px;
+  }
+  .icons {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .read-text {
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 40px;
+  }
+  .read-text p {
+    flex-direction: column;
+    margin-top: 5%;
+  }
+  .bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .b1 {
+    width: 100%;
+  }
+  .b1-details p {
+    font-size: 10px;
+  }
+  .b2 {
+    width: 100%;
+    height: 100%;
+  }
+  .up {
+    height: 55%;
+  }
+  .down {
+    height: 45%;
+  }
+  .b3 {
+    width: 100%;
+  }
+
+  .b3-details {
+    font-size: 15px;
+  }
+}
